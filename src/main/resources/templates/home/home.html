@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang ="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name= "viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/css/comm.css">
+</head>
+
+<body>
+<!-- Header -->
+<th:block th:replace="~{/comm/header}"></th:block>
+
+<div id="main" style="font-size:large; alignment:center; padding: 10px 50px; ">
+	<p>Web Programing | from 박대진<br>
+		Spring 공부를 합시다~
+	</p>
+	<p>
+	<fieldset>
+	<ul style="list-style-type:square;">
+		
+			<li> 개발툴 : 이클립스</li>
+			<li> Java Version 1.7</li>
+			<li> DBMS : mariaDB</li>
+			<li> Mapper : mybatis</li>
+		
+	</ul>
+	</fieldset>	
+	</p>
+</div>
+
+<!-- Footer -->
+<th:block th:replace="~{/comm/footer}"></th:block>
+
+</body>
+</html>
+	 
